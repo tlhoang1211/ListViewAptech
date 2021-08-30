@@ -1,9 +1,9 @@
 package com.example.listview;
 
 public class ContactModel {
-    private String name;
-    private String phone;
-    private int image;
+    private final String name;
+    private final String phone;
+    private final int image;
 
     public ContactModel(String name, String phone, int image) {
         this.name = name;
